@@ -28,7 +28,7 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('872887640205193286')
-    .setType('STREAMING')
+    .setType('PLAYING')
     .setURL('https://www.youtube.com/watch?v=XqqwGWC97RI') //Must be a youtube video link 
     .setState('Brookhaven 🏡RP')
     .setName('deneme')
