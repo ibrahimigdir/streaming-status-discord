@@ -32,9 +32,9 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=XqqwGWC97RI') //Must be a youtube video link 
     .setState('i need robux')
     .setName('Roblox')
-    .setDetails(`Brookhaven 🏡RP`)
+    .setDetails('Brookhaven 🏡RP')
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1223470107104251916/1272599831126474792/qLxW0CX.gif?ex=66bb9073&is=66ba3ef3&hm=43c1eccc8aa1a15e3430f0b88a46e47be2a62027b9e86cc4d947982a8fb43b2c&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://i.ibb.co/LRnL6sH/T8-VEzpg-3.gif') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('nig*a playing roblox') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1223470107104251916/1272599830811775106/T8VEzpg.gif?ex=66bb9073&is=66ba3ef3&hm=85ba774dcf941e0f9e31014dd8d255542425f88a337412582b719f73bde77028&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Roblox') //Text when you hover the Small image
