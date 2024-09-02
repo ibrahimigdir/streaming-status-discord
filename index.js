@@ -11,17 +11,6 @@ const client = new Discord.Client({
 const keepAlive = require('./server.js');
 keepAlive();
 
-function formatTime() { //Credits to himika#0001 and never#0001
-  const date = new Date();
-  const options = {
-    timeZone: 'America/New_York', //https://www.zeitverschiebung.net/en/ and find your city and enter here
-    hour12: true,
-    hour: 'numeric',
-    minute: 'numeric'
-  };
-  return new Intl.DateTimeFormat('en-US', options).format(date);
-}
-
 client.on('ready', async () => {
   console.clear();
   console.log(`${client.user.tag} - rich presence started!`);
@@ -45,15 +34,7 @@ client.on('ready', async () => {
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
 
   let prevTime = null;
-  setInterval(() => {
-    const newTime = formatTime();
-    if (newTime !== prevTime) {
-      const newDetails = `Roblox`;
-      r.setDetails(newDetails);
-      client.user.setActivity(r);
-      prevTime = newTime;
-    }
-  }, 1000); // Update every second
+// Update every second
 });
 
 client.login(process.env.TOKEN);
