@@ -34,9 +34,9 @@ client.on('ready', async () => {
     .setName('Roblox')
     .setDetails('Brookhaven 🏡RP')
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://i.ibb.co/LRnL6sH/T8-VEzpg-3.gif') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1223470107104251916/1272599831126474792/qLxW0CX.gif?ex=66d69733&is=66d545b3&hm=f247e8e4f239172d61b3148f713fd2c9af4d9c5295c828cc2d9652a63a313734&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('nig*a playing roblox') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1223470107104251916/1272599830811775106/T8VEzpg.gif?ex=66bb9073&is=66ba3ef3&hm=85ba774dcf941e0f9e31014dd8d255542425f88a337412582b719f73bde77028&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://cdn.discordapp.com/emojis/1280089998154006599.gif') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Roblox') //Text when you hover the Small image
     .addButton('Play Roblox', 'https://www.youtube.com/watch?v=WL4Dbxn4CoA')
     .addButton('Oof', 'https://www.youtube.com/watch?v=xYJ63OTMDL4');
